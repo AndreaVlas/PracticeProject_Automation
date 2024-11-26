@@ -1,0 +1,18 @@
+{
+  "name": "cypressproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "chromeTest": "npm run test -- --browser chrome",
+    "headTest": "npx cypress run --headed",
+    "SmokeTest": "npx cypress run --spec \"cypress/e2e/myTestsExamples/eCommercePageTest.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.15.2"
+  }
+}
